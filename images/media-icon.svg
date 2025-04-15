@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.598" height="32.598" viewBox="0 0 32.598 32.598">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.097" y1="0.105" x2="0.912" y2="0.928" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#df144b"/>
+      <stop offset="1" stop-color="#ff5601"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.083" y1="0.057" x2="0.967" y2="0.891" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_927" data-name="Group 927" transform="translate(-410 -1247.983)">
+    <path id="_110994_tv_icon" data-name="110994_tv_icon" d="M31.949,61.829a2.716,2.716,0,0,0,2.716,2.716H61.831a2.716,2.716,0,0,0,2.716-2.716V42.813A2.716,2.716,0,0,0,61.831,40.1H49.925l5.3-5.3a1.666,1.666,0,1,0-2.356-2.356L45.205,40.1h-.033l-5.624-5.623a1.666,1.666,0,1,0-2.356,2.356L40.451,40.1H34.665a2.716,2.716,0,0,0-2.716,2.717V61.829Zm4.89-18.337H53.545a1.49,1.49,0,0,1,1.494,1.494V59.655a1.49,1.49,0,0,1-1.494,1.494H36.839a1.49,1.49,0,0,1-1.494-1.494V44.987A1.49,1.49,0,0,1,36.839,43.492Zm20.917,1.7a1.7,1.7,0,1,1,1.7,1.7A1.7,1.7,0,0,1,57.756,45.19Zm0,5.433a1.7,1.7,0,1,1,1.7,1.7A1.7,1.7,0,0,1,57.756,50.623Z" transform="translate(378.051 1216.036)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <path id="Path_159" data-name="Path 159" d="M54.13,47.61v9.811l8.377-4.905Z" transform="translate(365.877 1215.679)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

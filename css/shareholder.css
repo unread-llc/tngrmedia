@@ -1,0 +1,250 @@
+.back-gray{
+    background: #F6F6F8;
+}
+
+.box-shadow{
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 3%);
+}
+
+.progress-bar-container{
+    display: flex;
+}
+
+.progress-bar-container>div{
+    line-height: 55px;
+    height: 55px;
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.progress-bar-container div:first-child{
+    border-top-left-radius: 10px;
+}
+
+.progress-bar-container div:last-child{
+    border-top-right-radius: 10px;
+}
+
+.progress-bar-container div.bar-one{
+    background: #FFB800;
+    /* width: 5%; */
+}
+
+.progress-bar-container div.bar-two{
+    background: #0AA7FF;
+    /* width: 10%; */
+}
+
+.progress-bar-container div.bar-three{
+    background: #1F4EFE;
+    /* width: 15%; */
+}
+
+.progress-bar-container div.bar-four{
+    background: #FF223F;
+    /* width: 30%; */
+}
+.progress-bar-container div.bar-five{
+    background: #30BAB0;
+    /* width: 40%; */
+}
+
+.dot-orange{
+    background: #FFB800;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+}
+
+.company-img{
+    height: 80px;
+    line-height: 80px;
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.company-item{
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 7%);
+}
+
+.company-type{
+    /* line-height: 18px; */
+    min-height: 44px;
+}
+
+.company-item{
+    background: #F6F6F8;
+}
+
+.company-label{
+    position: relative;
+}
+
+.company-label::before{
+    content: "";
+    background: transparent;
+    margin-top: 2px;
+    width: 6px;
+    height: 45px;
+    display: inline-block;
+    position: absolute;
+    left: -30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.label-orange::before{
+    background: #FFB800;
+}
+
+.label-blue::before{
+    background: #0AA7FF;
+}
+
+.label-red::before{
+    background: #FF223F;
+}
+
+.bar-value-dot{
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+
+.share-bar-table{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.share-bar-table:hover tbody tr{
+    opacity: .6;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.share-bar-table:hover tbody tr td span.bar-value-dot{
+    opacity: .6;
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.share-bar-table tbody tr:hover td span.bar-value-dot{
+    opacity: 1;
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.share-bar-table tbody tr:hover{
+    opacity: 1;
+    background: rgba(0,0,0,.02);
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.bar-item.hover{
+    opacity: .1;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.bar-item.active{
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#chartdiv {
+    width: 100%;
+    height: 450px;
+
+    background: transparent url(/web/20220124054144im_/https://tngr.media/wp-content/themes/tngrtheme/assets/images/logo.png) no-repeat center center;
+    background-size: 150px;
+    background-position-y: 120px;
+}
+  
+
+#chartdiv2 {
+    width: 100%;
+    height: 300px;
+}
+
+
+@media(min-width: 960px) and (max-width: 1150px){
+    #chartdiv {
+        background-position-y: 110px;
+    }
+}
+
+@media(min-width: 670px) and (max-width: 815px){
+    #chartdiv {
+        background-position-y: 100px;
+    }
+}
+
+@media(min-width: 610px) and (max-width: 670px){
+    #chartdiv {
+        height: 480px;
+        background-position-y: 120px;
+    }
+}
+
+@media(max-width: 610px){
+    #chartdiv {
+        height: 500px;
+        background-position-y: 100px;
+    }
+}
+
+@media(max-width: 490px){
+    #chartdiv {
+        height: 700px;
+        background-position-y: 120px;
+    }
+}
+
+  
+/*
+     FILE ARCHIVED ON 05:41:44 Jan 24, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:37:43 Apr 12, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.5
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.014
+  esindex: 0.01
+  cdx.remote: 9.744
+  LoadShardBlock: 141.332 (3)
+  PetaboxLoader3.datanode: 174.57 (5)
+  load_resource: 63.138
+  loaddict: 29.9
+*/

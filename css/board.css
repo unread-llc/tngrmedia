@@ -1,0 +1,120 @@
+.board-item{
+    border-bottom: 5px solid #0AA7FF;
+    /* border-bottom-right-radius: 10px; */
+}
+
+.border-top-orange{
+    border-bottom-color: #FFB800;
+}
+
+.border-top-red{
+    border-bottom-color: #DF144B;
+}
+
+.progress-bar-container{
+    
+}
+
+.board-item img{
+    width: 130px;
+    /* height: 130px; */
+    border-radius: 100%;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.board-item-title{
+    line-height: 18px !important;
+    margin-top: 5px;
+}
+
+.board-item{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+.board-item:hover{
+    /* margin-top: 3px; */
+    transform: scale(1.02);
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+.team-item:hover{
+    cursor: pointer;
+
+    transform: scale(1.02);
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+
+
+.team-modal-header{
+    border-top: 10px solid transparent;
+}
+
+.team-modal-one-header{
+    border-top-color: #0AA7FF;
+}
+
+.team-modal-two-header{
+    border-top-color: #FFB800;
+}
+
+.team-modal-three-header{
+    border-top-color: #DF144B;
+}
+
+.team-modal-close{
+    background-color: rgba(0,0,0,.05);
+    border-radius: 100%;
+    padding: 20px;
+    margin-top: 7px;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+.team-modal-close:hover{
+    background-color: rgba(0,0,0,.1);
+
+    
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+/*
+     FILE ARCHIVED ON 05:41:28 Jan 24, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:37:47 Apr 12, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.481
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.017
+  esindex: 0.009
+  cdx.remote: 6.295
+  LoadShardBlock: 166.525 (3)
+  PetaboxLoader3.datanode: 108.537 (5)
+  PetaboxLoader3.resolve: 154.306 (3)
+  load_resource: 110.075
+  loaddict: 29.224
+*/

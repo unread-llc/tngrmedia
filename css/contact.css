@@ -1,0 +1,73 @@
+.textarea{
+    height: 140px;
+}
+
+
+.gradient-btn{
+    background: -webkit-linear-gradient( 
+        80deg,#DF144B,#FF223F 50%,#FF5601);
+            background: linear-gradient( 
+        80deg,#DF144B,#FF223F 50%,#FF5601) !important;
+
+        color: white !important;
+        font-weight: bold !important;
+        /* font-family: HyundayBold !important; */
+        border-radius: 20px !important;
+        border: none !important;
+        padding: 10px 30px !important;
+        font-size: 16px !important;
+
+        -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+.gradient-btn:hover{
+    cursor: pointer !important;
+
+    background: -webkit-linear-gradient( 
+        80deg,#FF5601,#FF223F 50%,#DF144B);
+            background: linear-gradient( 
+        80deg,#FF5601,#FF223F 50%,#DF144B) !important;
+
+        -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+
+.input-container input,
+.input-container textarea{
+    background: #fff !important;
+    color: #666 !important;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 5px !important;
+}
+
+.input-container label{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+/*
+     FILE ARCHIVED ON 05:41:26 Jan 24, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:37:52 Apr 12, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.6
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.019
+  esindex: 0.012
+  cdx.remote: 8.194
+  LoadShardBlock: 102.479 (3)
+  PetaboxLoader3.datanode: 111.755 (5)
+  PetaboxLoader3.resolve: 129.939 (2)
+  load_resource: 154.398
+  loaddict: 46.141
+*/
